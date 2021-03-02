@@ -4,7 +4,7 @@ This project requires the implementation of an image classifier based on convolu
 
 ## Required Point:
 - train a shallow network from scratch according to the following specifications:
-  - use the network layout shown in Table 1:
+  - use the network layout shown in Table 1;
   - since the input image is 64×64 you will need to resize the images in order to feed them to the network; follow the simple approach of rescaling the whole image independently along x and y to get the proper size. Other approaches exist, see below about the optional improvement of data augmentation;
   - split the provided training set in 85% for actual training set and 15% to be used as validation set;
   - employ the stochastic gradient descent with momentum optimization algorithm, using the default parameters of the library you use, except for those specified in the following;
@@ -30,6 +30,23 @@ previous modifications.
 - OPTIONALLY: in task 3, you could employ nonlinear SVMs;
 - OPTIONALLY: in task 3, you could implement the multiclass SVM using the Error Correcting Output Code approach
 
+
+## Table
+Table 1:  Layout of the CNN 
+| # | TYPE | SIZE |
+| -- | ------- | --------- |
+| 1 | Image Input | 64×64×1 images |
+| 2 | Convolution | 8 3×3 convolutions with stride 1 |
+| 3 | ReLU | --- |
+| 4 | Max Pooling | 2×2 max pooling with stride 2 |
+| 5 | Convolution | 16 3×3 convolutions with stride 1 |
+| 6 | ReLU | --- |
+| 7 | Max Pooling | 2×2 max pooling with stride 2 |
+| 8 | Convolution | 32 3×3 convolutions with stride 1 | 
+| 9 | ReLU | --- | 
+| 10 | Fully Connected | 15 | 
+| 11 | Softmax softmax | --- | 
+| 12 | Classification Output | crossentropyex | 
 
 # Developers
 - [Pinna Giovanni](https://www.giovannipinna.net)
