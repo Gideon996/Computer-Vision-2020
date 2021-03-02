@@ -37,15 +37,15 @@ Table 1:  Layout of the CNN
 | -- | ------- | --------- |
 | 1 | Image Input | 64×64×1 images |
 | 2 | Convolution | 8 3×3 convolutions with stride 1 |
-| 3 | ReLU | --- |
+| 3 | ReLU |  |
 | 4 | Max Pooling | 2×2 max pooling with stride 2 |
 | 5 | Convolution | 16 3×3 convolutions with stride 1 |
-| 6 | ReLU | --- |
+| 6 | ReLU |  |
 | 7 | Max Pooling | 2×2 max pooling with stride 2 |
 | 8 | Convolution | 32 3×3 convolutions with stride 1 | 
-| 9 | ReLU | --- | 
+| 9 | ReLU |  | 
 | 10 | Fully Connected | 15 | 
-| 11 | Softmax softmax | --- | 
+| 11 | Softmax | softmax | 
 | 12 | Classification Output | crossentropyex | 
 
 # Developers
