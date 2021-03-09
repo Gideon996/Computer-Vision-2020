@@ -49,5 +49,5 @@ Table 1:  Layout of the CNN
 | 12 | Classification Output | crossentropyex | 
 
 # Developers
-- [Pinna Giovanni](https://www.giovannipinna.net)
+- [Pinna Giovanni](https://github.com/giovannipinna96)
 - [Tumino Adriano](https://github.com/Gideon996)
